@@ -1,0 +1,101 @@
+body{
+  background-color: #fabee5;
+}
+p{
+  padding-top: 50px;
+  font-size: 30px;
+  font-family: lato sans-serif;
+}
+.container{
+  background-color: white;
+  color: black;
+  height: 100%;
+  width: 100% ;
+}
+.banner-image{
+  background-image: url('../images/girl1.jpg');
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:500px;
+	width:40%;
+  float: left;
+}
+
+.banner{
+  float: right;
+}
+.banner h1{
+  padding-bottom: 10px;
+  padding-top: 30px;
+  font-size: 50px;
+  font-weight: 900;
+  font-family: 'Lato', sans-serif;
+  color: #000000;
+  
+}
+.banner h3{
+  color: grey;
+  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+  font-family: 'Karla', sans-serif;
+}
+.banner h4{
+  color: grey;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-bottom: 20px;
+}
+form input{
+  width: 300px;
+  padding: 15px;
+  font-family: 'Chivo', sans-serif;
+}
+form input:focus{
+  border: 1px solid grey !important;
+  color: #000000;
+}
+form button{
+  width: 300px;
+  padding: 40px;
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  font-family: 'Chivo', sans-serif;
+  border-radius: none;
+}
+form button a:visited{
+  color: white;
+}
+form button a:hover{
+  color: white;
+  text-decoration: none;
+}
+.click-btn{
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  color: black;
+  margin: 10px
+}
+.click-btn:focus{
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px dashed #fabee5;
+}
+.banner-image2{
+  background-image: url('../images/man1.jpg');
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:500px;
+	width:40%;
+  float: left;
+}
+.banner2{
+  padding-top: 80px;
+  line-height: 4px; 
+}
+.button2{
+  margin-top: 20px;
+  padding: 30px;
+  float: left;
+}
